@@ -102,7 +102,7 @@ function getContactDescription() {
                         </tr>
                         <tr>
                             <td><img src="assets/img/mail.png"></td>
-                            <td><a href="mailto:k.schumilo@basecom.de">k.schumilo@basecom.de</a></td>
+                            <td><a href="mailto:k.schumilo@gmail.com">k.schumilo@gmail.com</a></td>
                         </tr>
                         <tr>
                             <td><img src="assets/img/github.png"></td>
