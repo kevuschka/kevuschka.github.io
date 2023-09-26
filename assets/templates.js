@@ -98,7 +98,7 @@ function getContactDescription() {
                         </tr>
                         <tr>
                             <td><img src="assets/img/phone.png"></td>
-                            <td><a href="tel:+4917678904871">0176 78904871</a></td>
+                            <td><a href="tel:+4917678904...">0176 78904...</a></td>
                         </tr>
                         <tr>
                             <td><img src="assets/img/mail.png"></td>
@@ -106,7 +106,7 @@ function getContactDescription() {
                         </tr>
                         <tr>
                             <td><img src="assets/img/github.png"></td>
-                            <td><a href="https://github.com/me50/kevuschka-basecom" target="_blank"><span style="color:var(--medium-yellow)">github</span></a></td></td>
+                            <td><a href="https://github.com/kevuschka" target="_blank"><span style="color:var(--medium-yellow)">github</span></a></td></td>
                         </tr>
                 </table>
         </div>`;
@@ -126,7 +126,7 @@ function getDisclosureDescription() {
                 </p>
                 <p><strong class="impressum-titles">Kontakt:</strong> <br>
                     Telefon: +4917678904871<br>
-                    E-Mail: <a href='mailto:k.schumilo@basecom.de'>k.schumilo@basecom.de</a></br>
+                    E-Mail: <a href='mailto:k.schumilo@gmail.com'>k.schumilo@gmail.com</a></br>
                 </p>
                 <p>
                     <strong class="impressum-titles">Haftungsausschluss: </strong><br><br>
