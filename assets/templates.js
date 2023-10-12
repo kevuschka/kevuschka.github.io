@@ -56,7 +56,7 @@ function getAboutmeDescription() {
                 I am born and raised in the salty town called Lüneburg.
                 After graduating from highschool in 2015, my way continued in Osnabrück.
                 Moving out to my first shared apartment of 7 people was like a jump into cold water.
-                After two more shared apartemnts I moved 2021 into my first own apartment, where I live since then.
+                After two more shared apartments I moved 2021 into my first own apartment, where I live since then.
                 From electrical engineering studies to web development, I am now a proud apprentice at basecom!
             </p>
             <div class="description-hobbies d-flex flex-column align-items-start">
