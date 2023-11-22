@@ -4,10 +4,10 @@ function getNavbar() {
                 <div class="navbar d-flex align-items-center w-100" role="navigation">
                     <a class="navbar-logo" href="/index.html">K</a>
                     <div class="navbar-elements d-flex gap-3 justify-content-center">
-                        <a id="home" href="index.html">Home</a>
-                        <a id="about-me" href="about_me.html">Me</a>
-                        <a id="contact" href="contact.html">Contact</a>
-                        <a id="navbar-disclosure" href="legal_disclosure.html">Disclosure</a>
+                        <a id="home" href="./index.html">Home</a>
+                        <a id="about-me" href="./assets/pages/about_me.html">Me</a>
+                        <a id="contact" href="./assets/pages/contact.html">Contact</a>
+                        <a id="navbar-disclosure" href="./assets/pages/legal_disclosure.html">Disclosure</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><img src="assets/img/menu.png"></span>
