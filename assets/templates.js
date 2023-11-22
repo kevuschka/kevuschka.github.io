@@ -4,13 +4,13 @@ function getNavbar() {
                 <div class="navbar d-flex align-items-center w-100" role="navigation">
                     <a class="navbar-logo" href="/index.html">K</a>
                     <div class="navbar-elements d-flex gap-3 justify-content-center">
-                        <a id="home" href="./index.html">Home</a>
-                        <a id="about-me" href="./assets/pages/about_me.html">Me</a>
-                        <a id="contact" href="./assets/pages/contact.html">Contact</a>
-                        <a id="navbar-disclosure" href="./assets/pages/legal_disclosure.html">Disclosure</a>
+                        <a id="home" href="/index.html">Home</a>
+                        <a id="about-me" href="/assets/pages/about_me.html">Me</a>
+                        <a id="contact" href="/assets/pages/contact.html">Contact</a>
+                        <a id="navbar-disclosure" href="/assets/pages/legal_disclosure.html">Disclosure</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><img src="assets/img/menu.png"></span>
+                        <span class="navbar-toggler-icon"><img src="/assets/img/menu.png"></span>
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
@@ -19,16 +19,16 @@ function getNavbar() {
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a id="home" class="nav-link" href="index.html">Home</a>
+                                    <a id="home" class="nav-link" href="/index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="about-me" class="nav-link" href="about_me.html">Me</a>
+                                    <a id="about-me" class="nav-link" href="/assets/pages/about_me.html">Me</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="contact" class="nav-link" href="contact.html">Contact</a>
+                                    <a id="contact" class="nav-link" href="/assets/pages/contact.html">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a id="navbar-disclosure" class="nav-link" href="legal_disclosure.html">Disclosure</a>
+                                    <a id="navbar-disclosure" class="nav-link" href="/assets/pages/legal_disclosure.html">Disclosure</a>
                                 </li>
                             </ul>
                         </div>
@@ -62,26 +62,26 @@ function getAboutmeDescription() {
             <div class="description-hobbies d-flex flex-column align-items-start">
                 <p class="description-title text-cool d-flex justify-self-start">hobbies & likes</p>
                 <div class="icons d-flex flex-wrap">
-                    <img src="assets/img/mtb.png" alt="Mountainbiking" title="Mountainbiking">
-                    <img src="assets/img/run.png" alt="running" title="Running">
-                    <img src="assets/img/skate.png" alt="Skateboarding" title="Skateboarding">
-                    <img src="assets/img/inliner.png" alt="Inliner" title="Inline Skating">
-                    <img src="assets/img/bible.png" alt="reading Bible" title="reading Bible">
-                    <img src="assets/img/movies.png" alt="watching Movies" title="watching Movies">
-                    <img src="assets/img/music.png" alt="listen to Music" title="listen to Music">
-                    <img src="assets/img/programming.png" alt="Programming" title="Programming">
+                    <img src="/assets/img/mtb.png" alt="Mountainbiking" title="Mountainbiking">
+                    <img src="/assets/img/run.png" alt="running" title="Running">
+                    <img src="/assets/img/skate.png" alt="Skateboarding" title="Skateboarding">
+                    <img src="/assets/img/inliner.png" alt="Inliner" title="Inline Skating">
+                    <img src="/assets/img/bible.png" alt="reading Bible" title="reading Bible">
+                    <img src="/assets/img/movies.png" alt="watching Movies" title="watching Movies">
+                    <img src="/assets/img/music.png" alt="listen to Music" title="listen to Music">
+                    <img src="/assets/img/programming.png" alt="Programming" title="Programming">
                 </div>
             </div>
             <div class="description-skills w-100 d-flex flex-column align-items-start">
                 <p class="description-title text-cool align-self-end">..and skills</p>
                 <div class="icons d-flex flex-wrap">
-                    <img src="assets/img/c.png" title="C">
-                    <img src="assets/img/c++.png" title="C++">
-                    <img src="assets/img/html.png" title="HTML 5">
-                    <img src="assets/img/css.png" title="CSS 3">
-                    <img src="assets/img/js.png" title="Javasript">
-                    <img src="assets/img/php.png" title="PHP">
-                    <img src="assets/img/python.png" title="Python">
+                    <img src="/assets/img/c.png" title="C">
+                    <img src="/assets/img/c++.png" title="C++">
+                    <img src="/assets/img/html.png" title="HTML 5">
+                    <img src="/assets/img/css.png" title="CSS 3">
+                    <img src="/assets/img/js.png" title="Javasript">
+                    <img src="/assets/img/php.png" title="PHP">
+                    <img src="/assets/img/python.png" title="Python">
                 </div>
             </div>`;
 }
@@ -93,19 +93,19 @@ function getContactDescription() {
                 <p class="text-cool">Kevin Schumilo</p>
                 <table class="tbl table">
                         <tr>
-                            <td><img src="assets/img/house.png"></td>
+                            <td><img src="/assets/img/house.png"></td>
                             <td><p>Limberger Str. 102, 49080 Osnabrück</p></td>
                         </tr>
                         <tr>
-                            <td><img src="assets/img/phone.png"></td>
+                            <td><img src="/assets/img/phone.png"></td>
                             <td><a href="tel:+4917678904...">0176 78904...</a></td>
                         </tr>
                         <tr>
-                            <td><img src="assets/img/mail.png"></td>
+                            <td><img src="/assets/img/mail.png"></td>
                             <td><a href="mailto:k.schumilo@gmail.com">k.schumilo@gmail.com</a></td>
                         </tr>
                         <tr>
-                            <td><img src="assets/img/github.png"></td>
+                            <td><img src="/assets/img/github.png"></td>
                             <td><a href="https://github.com/kevuschka" target="_blank"><span style="color:var(--medium-yellow)">github</span></a></td></td>
                         </tr>
                 </table>
@@ -125,7 +125,7 @@ function getDisclosureDescription() {
                     Kevin Schumilo<br>
                 </p>
                 <p><strong class="impressum-titles">Kontakt:</strong> <br>
-                    Telefon: +4917678904871<br>
+                    Telefon: +491767890****<br>
                     E-Mail: <a href='mailto:k.schumilo@gmail.com'>k.schumilo@gmail.com</a></br>
                 </p>
                 <p>

@@ -21,7 +21,7 @@ function loadContent() {
     if (window.location.pathname.includes('index.html')) {
         loadContentHome();
         document.getElementById('home').classList.add('current-page');
-    } else if (window.location.pathname.includes('about_me.html')) {
+    } else if (window.location.pathname.includes('/assets/pages/about_me.html')) {
         loadContentAboutme();
         document.getElementById('about-me').classList.add('current-page');
     } else if (window.location.pathname.includes('contact.html')) {
@@ -35,7 +35,7 @@ function loadContent() {
 
 
 function loadContentHome() {
-    document.getElementById('greeting').innerHTML = `Hey, welcome on&nbsp<a href="/about_me.html">my</a>&nbsphomepage`;
+    document.getElementById('greeting').innerHTML = `Hey, welcome on&nbsp<a href="/assets/pages/about_me.html">my</a>&nbsphomepage`;
     document.getElementById('pic').src = 'assets/img/home_pic.png';
     document.getElementById('description').innerHTML = `
         I am Kevin Schumilo<br>
@@ -46,7 +46,7 @@ function loadContentHome() {
 
 
 function loadContentAboutme() {
-    document.getElementById('greeting').innerHTML = `Yeah, so this is&nbsp<a href="/about_me.html">me</a>`;
+    document.getElementById('greeting').innerHTML = `Yeah, so this is&nbsp<a href="/assets/pages/about_me.html">me</a>`;
     document.getElementById('pic').src = 'assets/img/aboutme_pic.png';
     if (window.innerWidth > 551) document.getElementById('description-wrapper').style.flexDirection = 'row-reverse';
     else document.getElementById('description-wrapper').style.flexDirection = 'column';
@@ -59,7 +59,7 @@ function loadContentAboutme() {
 
 
 function loadContentContact() {
-    document.getElementById('greeting').innerHTML = `Everything to contact&nbsp<a href="/about_me.html">me</a>`;
+    document.getElementById('greeting').innerHTML = `Everything to contact&nbsp<a href="/assets/pages/about_me.html">me</a>`;
     document.getElementById('description-wrapper').innerHTML = "";
     document.getElementById('description-wrapper').innerHTML = getContactDescription();
 
@@ -67,7 +67,7 @@ function loadContentContact() {
 
 
 function loadContentDisclosure() {
-    document.getElementById('greeting').innerHTML = `<a href="/about_me.html">My</a>&nbsp legal disclosure`;
+    document.getElementById('greeting').innerHTML = `<a href="/assets/pages/about_me.html">My</a>&nbsp legal disclosure`;
     document.getElementById('description-wrapper').innerHTML = getDisclosureDescription();
     document.getElementById('wrapper').style.paddingBottom = '24px';
 }
