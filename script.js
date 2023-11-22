@@ -36,7 +36,7 @@ function loadContent() {
 
 function loadContentHome() {
     document.getElementById('greeting').innerHTML = `Hey, welcome on&nbsp<a href="/assets/pages/about_me.html">my</a>&nbsphomepage`;
-    document.getElementById('pic').src = 'assets/img/home_pic.png';
+    document.getElementById('pic').src = '/assets/img/home_pic.png';
     document.getElementById('description').innerHTML = `
         I am Kevin Schumilo<br>
         <strong>Trainee Software Developer</span></strong><br>
@@ -47,7 +47,7 @@ function loadContentHome() {
 
 function loadContentAboutme() {
     document.getElementById('greeting').innerHTML = `Yeah, so this is&nbsp<a href="/assets/pages/about_me.html">me</a>`;
-    document.getElementById('pic').src = 'assets/img/aboutme_pic.png';
+    document.getElementById('pic').src = '/assets/img/aboutme_pic.png';
     if (window.innerWidth > 551) document.getElementById('description-wrapper').style.flexDirection = 'row-reverse';
     else document.getElementById('description-wrapper').style.flexDirection = 'column';
     document.getElementById('description-container').style.flexDirection = 'column';

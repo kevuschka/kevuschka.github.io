@@ -87,7 +87,6 @@ function getAboutmeDescription() {
 }
 
 
-
 function getContactDescription() {
     return `<div class="contact-card  d-flex flex-column align-items-center">
                 <p class="text-cool">Kevin Schumilo</p>
