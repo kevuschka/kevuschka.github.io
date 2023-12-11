@@ -93,7 +93,7 @@ function getContactDescription() {
                 <table class="tbl table">
                         <tr>
                             <td><img src="/assets/img/house.png"></td>
-                            <td><p>Limberger Str. 102, 49080 Osnabrück</p></td>
+                            <td><p>Limberger Str., 49080 Osnabrück</p></td>
                         </tr>
                         <tr>
                             <td><img src="/assets/img/phone.png"></td>
